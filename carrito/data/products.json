@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "nombre": "diamante",
+      "precio": 1.50,
+      "cantidad": 1,
+      "imagen": ""
+    },
+    {
+      "nombre": "mochi",
+      "precio": 2.22,
+      "cantidad":1,
+      "imagen": ""
+    },
+    {
+      "nombre": "abeja",
+      "precio": 4.11,
+      "cantidad":1,
+      "imagen": ""
+    }
+  ]
+}
+
