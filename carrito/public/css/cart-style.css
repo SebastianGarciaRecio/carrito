@@ -36,6 +36,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     transition: all 0.3s ease;
+    visibility: hidden;
 }
 
 .filaProductos {
@@ -141,7 +142,7 @@ footer {
     text-align: right;
 }
 
-#carrito #vaciar {
+#carrito #vaciar, #pagar {
     background-color: #e74c3c;
     color: white;
     border: none;
@@ -162,24 +163,25 @@ footer {
     color: #333;
     cursor: pointer;
     transition: color 0.3s ease;
-    position: fixed;
-    background-color: white;
-    padding: 9px;
-    border-radius: 40%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    right: 15em;
-    top: 40px;
+  
+    padding: 15px;
+    border-radius: 90%;
+    
+    position: relative;
+    left: 80%;
+    top: 20px;
     z-index: 1000;
+    width: 55px;
 }
 
 #iconoCarritoImg {
-    width: 55px;
-    height: 55px;
+    width: 80px;
+    height: 80px;
 }
 
 #iconoCarritoImg:hover {
     /*Escalar */
-    transform: scale(1.5);
+    transform: scale(1.4);
     transition: transform 0.3s ease;
 }
 

@@ -38,13 +38,7 @@ app.use(express.static('../public'));
 
 const products = require('../data/products.json');
 
-app.post('/login', (req, res) => {
-    const nombre = req.body.nombre;
-    const password = req.body.password;
-    req.session.nombre = nombre;
-    req.session.pasword = password
-    res.json({success: true})
-});
+
 
 
 app.post('/add-product', (req, res) => {
@@ -52,7 +46,7 @@ app.post('/add-product', (req, res) => {
     const id = req.body.id
     const lista = products.products
 
-    if (req.session.nombre && req.session.pasword) {
+    
         if (!req.session.carrito) {
             req.session.carrito = [];
         }
@@ -80,7 +74,6 @@ app.post('/add-product', (req, res) => {
             }
 
         }
-    }
 
 
     res.json(respuesta)

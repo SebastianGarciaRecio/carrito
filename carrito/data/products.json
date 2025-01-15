@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "nombre": "diamante",
+      "nombre": "coche",
       "precio": 1.50,
       "cantidad": 1,
-      "imagen": ""
+      "imagen": "coche.png"
     },
     {
       "nombre": "mochi",
