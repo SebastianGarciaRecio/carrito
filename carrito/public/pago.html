@@ -5,54 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="css/pago-style.css">
 </head>
 
 <body>
     <form id="formLogin">
-        <div class="bloque">
-            <label for="nombre">username</label>
-            <input type="text" placeholder="Escribe aqui" id="nombre">
-        </div>
-
-
-        <div class="bloque">
-            <label>password</label>
-            <input type="text" placeholder="Escribe aqui" id="password">
-        </div>
-
-
-        <button type="submit" id="btnSesion">Iniciar sesion</button>
+        <h1>PAGO HECHO CON EXITO</h1>
     </form>
 
     <script>
-        document.getElementById("formLogin").addEventListener("submit", async function (event) {
-            event.preventDefault();
-
-            const nombre = document.getElementById("nombre");
-            const password = document.getElementById("password");
-            try {
-                const response = await fetch("/login", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    credentials: "include",
-                    body: JSON.stringify({nombre, password})
-                });
-
-                const result = await response.json();
-
-                if (result.success) {
-                    window.location.href = '/index.html';
-                } else {
-                    alert("hubo un problema");
-                }
-            } catch (error) {
-                alert("Error")
-            }
-
-        });
     </script>
 </body>
 

@@ -1,23 +1,79 @@
 {
   "products": [
     {
-      "nombre": "coche",
-      "precio": 1.50,
-      "cantidad": 1,
-      "imagen": "coche.png"
-    },
-    {
-      "nombre": "mochi",
+      "nombre": "mechero",
       "precio": 2.22,
       "cantidad":1,
-      "imagen": ""
+      "imagen": "mechero.png"
     },
     {
-      "nombre": "abeja",
+      "nombre": "diamante",
       "precio": 4.11,
       "cantidad":1,
-      "imagen": ""
+      "imagen": "diamante.png"
+    },
+
+    {
+      "nombre": "auriculares",
+      "precio": 5.00,
+      "cantidad":1,
+      "imagen": "auriculares.jpg"
+    },
+    {
+      "nombre": "fruta",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "fruta.jpg"
+    },
+    {
+      "nombre": "helicóptero",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "helicoptero.jpg"
+    },
+    {
+      "nombre": "pesas",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "pesas.jpg"
+    },
+    {
+      "nombre": "piano",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "piano.jpg"
+    },
+    {
+      "nombre": "robot",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "robot.jpg"
+    },
+    {
+      "nombre": "monopatin",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "monopatin.jpg"
+    },
+    {
+      "nombre": "candado",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "candado.jpg"
+    },
+    {
+      "nombre": "cámara",
+      "precio": 3.00,
+      "cantidad":1,
+      "imagen": "camara.jpg"
+    },
+    {
+      "nombre": "coche",
+      "precio": 1.50,
+      "cantidad": 0,
+      "imagen": "coche.png"
     }
+
   ]
 }
 

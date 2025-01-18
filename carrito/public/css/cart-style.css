@@ -55,7 +55,10 @@ footer {
     width: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 10px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .producto:hover {
@@ -169,7 +172,7 @@ footer {
     
     position: relative;
     left: 80%;
-    top: 20px;
+    bottom: 5em;
     z-index: 1000;
     width: 55px;
 }
@@ -188,8 +191,8 @@ footer {
 
 
 #logo{
-    position: fixed;
-    top: 0.5px;
+    position: relative;
+    bottom: 15px;
     width: 20em;
     height: 10em;
 }
